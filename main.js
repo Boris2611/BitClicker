@@ -60,18 +60,11 @@ function clickBTC() {
         document.getElementById("item7locked").innerHTML = "Unlocked";
     }
 
-    if (score >= 1.0 && score < 0.1) {
+    if (score >= 1.0 && score < 1.1) {
         winsound.play();
         click = 0.01;
         document.getElementById("item6").id = "item6Clicked";
         document.getElementById("item6locked").innerHTML = "Unlocked";
-    }
-
-    if (score >= 10.00 && score < 11.00) {
-        winsound.play();
-        click = 0.1;
-        document.getElementById("item8").id = "item8Clicked";
-        document.getElementById("item8locked").innerHTML = "Unlocked";
     }
 
     if (score >= 100.00 && score < 110.00) {

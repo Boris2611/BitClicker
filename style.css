@@ -70,11 +70,11 @@ header {
 
 
 
-#item1Clicked, #item2Clicked, #item3Clicked, #item4Clicked, #item5Clicked, #item6Clicked, #item7Clicked, #item8Clicked, #item9Clicked   {
+#item1Clicked, #item2Clicked, #item3Clicked, #item4Clicked, #item5Clicked, #item6Clicked, #item7Clicked, #item9Clicked   {
     border: 5px solid green;
     background-color: rgba(172, 255, 47, 0.336);
 }
 
-#item1locked, #item2locked, #item3locked,#item4locked,#item5locked,#item6locked,#item7locked,#item8locked,#item9locked {
+#item1locked, #item2locked, #item3locked,#item4locked,#item5locked,#item6locked,#item7locked,#item9locked {
     color: #999;
 }
