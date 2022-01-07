@@ -1,0 +1,80 @@
+body {
+    margin: 0px;
+    background-image: url("bg.jpg");
+    -webkit-tap-highlight-color: rgba(0,0,0,0);
+}
+
+
+header {
+    margin: 0;
+    width: 100%;
+    height: 60px;
+    background-color: rgba(255, 255, 255, 0.164);
+    margin-bottom: 100px;
+    text-align: center;
+    border-radius: 0px 0px 40px 40px;
+}
+
+.headertext {
+    color: rgba(255, 255, 255, 0.836);
+    margin: 0;
+    padding: 10px;
+}
+
+.btcDiv {
+    width: 300px;
+    height: 300px;
+    
+}
+
+#btc {
+    width: 300px;
+    border-radius: 50%;
+    box-shadow: 0px 0px 20px 20px black;
+    cursor: pointer;
+}
+
+#btcClicked {
+    border-radius: 50%;
+    width: 280px;
+    box-shadow: 0px 0px 20px 20px #222;
+}
+
+.center {
+    display: flex;
+    justify-content: center;
+    text-align: center;
+}
+
+
+.menu {
+    height: fit-content;
+    width: 90%;
+    background-color: rgba(255, 255, 255, 0.144);
+    margin-top: 100px;
+    border-radius: 20px;
+}
+
+.item {
+    width: 85%;
+    height: 150px;
+    background-color: rgba(255, 255, 255, 0.158);
+    margin-top: 40px;
+    border-radius: 20px;
+    margin: 20px;
+}
+
+#score {
+    color: white;
+}
+
+
+
+#item1Clicked, #item2Clicked, #item3Clicked, #item4Clicked, #item5Clicked, #item6Clicked, #item7Clicked, #item8Clicked, #item9Clicked   {
+    border: 5px solid green;
+    background-color: rgba(172, 255, 47, 0.336);
+}
+
+#item1locked, #item2locked, #item3locked,#item4locked,#item5locked,#item6locked,#item7locked,#item8locked,#item9locked {
+    color: #999;
+}
